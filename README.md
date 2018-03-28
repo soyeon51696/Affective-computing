@@ -1,10 +1,11 @@
 # Affective-computing
 
-- - -
 ## Install Dlib on MAC
 
 > MacOS >= 10.11 & XCode >= 8
+
 > python3
+
 > source 'virtual environment'/bin/activate
 
 ### 1. Install OS libraries
