@@ -83,5 +83,4 @@ if (len(sys.argv[1:]) > 0):
     img = io.imread(sys.argv[1])
     dets, scores, idx = detector.run(img, 1, -1)
     for i, d in enumerate(dets):
-        print("Detection {}, score: {}, face_type:{}".format(
-            d, scores[i], idx[i]))
+        print("Detection {}, score: {}, face_type:{}".format( d, scores[i], idx[i]))
